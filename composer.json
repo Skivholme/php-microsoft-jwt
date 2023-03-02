@@ -1,7 +1,7 @@
 {
-  "name": "alancting/php-microsoft-jwt",
+  "name": "skivholme/php-microsoft-jwt",
   "description": "A simple library to validate and decode Microsoft Azure Active Directory (Azure AD), Microsoft Active Directory Federation Services (ADFS) JSON Web Tokens (JWT) in PHP, conforming to RFC 7519",
-  "homepage": "https://github.com/alancting/php-microsoft-jwt",
+  "homepage": "https://github.com/Skivholme/php-microsoft-jwt",
   "keywords": [
     "php",
     "jwt",
@@ -39,12 +39,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Alancting\\Microsoft\\JWT\\": "src/"
+      "Skivholme\\Microsoft\\JWT\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Alancting\\Microsoft\\Tests\\": "tests/"
+      "Skivholme\\Microsoft\\Tests\\": "tests/"
     }
   },
   "scripts": {
